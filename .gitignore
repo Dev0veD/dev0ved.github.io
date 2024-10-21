@@ -15,10 +15,11 @@ Sessionx.vim
 [._]*.un~
 
 
-# ---> hugo build
-/public
+# ---> hugo
+public
+!themes
 /dist
 node_modules
 nohup.out
 .hugo_build.lock
-/resources/_gen/images
+resources
